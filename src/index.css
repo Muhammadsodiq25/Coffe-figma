@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+  list-style: none;
+  text-decoration: none;
+}
+
 .container {
   margin: 0 auto;
   padding: 10px 50px;
   align-items: center;
+  background-color: #e2ede9;
+  overflow: hidden;
 }

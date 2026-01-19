@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e2ede9;
+}
+
+.nav__links {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__link {
+  color: #111111;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+}
+
+.nav__link:hover {
+  color: #5a5a5a;
+}
+
+.header__btns {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.header__search {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 6px 2px 24px 0px #00000021;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__search--btn {
+  border: none;
+  background-color: inherit;
+  font-size: 18px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.header__search--input {
+  border: none;
+}
+
+.shopping__cart {
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+}
