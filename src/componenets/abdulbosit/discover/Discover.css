@@ -1,0 +1,50 @@
+.discover {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.discover__img {
+    width: 48%;
+}
+
+.discover__img img {
+    width: 600px;
+    object-fit: cover;
+    height: 555px;
+}
+
+.discover__text {
+    width: 48%;
+    margin-top: 200px;
+}
+
+.discover__text h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #12463A;
+    line-height: 133%;
+    font-family: sans-serif;
+}
+
+.discover__text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #7E7D7A;
+    line-height: 100%;
+    font-family: sans-serif;
+}
+
+.discover__text button {
+    background-color: #12463A;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: sans-serif;
+}
