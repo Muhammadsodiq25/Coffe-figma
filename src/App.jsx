@@ -1,14 +1,14 @@
-import Header from "./componenets/muhammadsodiq/header/Header";
-import Banner from "./componenets/muhammadsodiq/banner/Banner";
-import Floor from "./componenets/abdulbosit/floor/Floor";
-import Discover from "./componenets/abdulbosit/discover/Discover";
-import Base from "./componenets/akbarshox/base/Base";
-import Different from "./componenets/akbarshox/different/Different";
-import Explore from "./componenets/abdulaziz/explore/Explore";
-import Blog from "./componenets/abdulaziz/blog/Blog";
-import Feedback from "./componenets/abdulbosit/feedback/Feedback";
-import Book from "./componenets/rahmatullo/book/Book";
-import Footer from "./componenets/rahmatullo/footer/Footer";
+import Header from "./components/muhammadsodiq/header/Header";
+import Banner from "./components/muhammadsodiq/banner/Banner";
+import Floor from "./components/abdulbosit/floor/Floor";
+import Discover from "./components/abdulbosit/discover/Discover";
+import Base from "./components/akbarshox/base/Base";
+import Different from "./components/akbarshox/different/Different";
+import Explore from "./components/abdulaziz/explore/Explore";
+import Blog from "./components/abdulaziz/blog/Blog";
+import Feedback from "./components/abdulbosit/feedback/Feedback";
+import Book from "./components/rahmatullo/book/Book";
+import Footer from "./components/rahmatullo/footer/Footer";
 
 const App = () => {
   return (
