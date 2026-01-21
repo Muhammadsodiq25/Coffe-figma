@@ -1,0 +1,120 @@
+:root {
+  --bg-color: #e2ede8;
+  --dark-green: #1a4d3e;
+  --text-grey: #666;
+}
+
+.blog-section {
+  background-color: var(--bg-color);
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.blog-header h2 {
+  font-size: 2.5rem;
+  color: var(--dark-green);
+  margin-bottom: 10px;
+}
+
+.blog-header p {
+  color: var(--text-grey);
+  margin-bottom: 50px;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  width: 350px;
+  height: 450px;
+  background: linear-gradient(to bottom, #cccccc 0%, var(--dark-green) 100%);
+  position: relative;
+  border-radius: 4px; /* Rasmda burchaklar juda o'tkir emas */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.blog-date {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: white;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.blog-date .day {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--dark-green);
+}
+
+.blog-date .month {
+  font-size: 0.9rem;
+  color: var(--dark-green);
+}
+
+.blog-category {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 25px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.blog-title {
+  color: white;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.blog-footer {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 0.8rem;
+  gap: 10px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 15px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.author-avatar {
+  width: 25px;
+  height: 25px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+
+.blog-icons {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.posted-by {
+    opacity: 0.8;
+}
