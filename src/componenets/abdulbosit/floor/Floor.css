@@ -1,6 +1,6 @@
 .floor {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 60px;;
 }
@@ -8,6 +8,7 @@
 .floor__left {
   position: relative;
   width: 50%;
+  max-width: 800px;
 }
 
 .floor__left--img img {
