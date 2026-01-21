@@ -59,20 +59,22 @@ const App = () => {
       <Banner btn1={`Order now 🛒`} btn2={"More menu"} img={bannerImg} />
       <Popular cart={popular__cart} />
 
-      <Floor 
+      <Floor
         leftImg={floorLeftImg}
         floorLeftBoxH2={floorLeftBoxH2}
         floorLeftBoxP={floorLeftBoxP}
         floorLeftBoxH3={floorLeftBoxH3}
         floorRightTextH2={"Try new floor first"}
-        floorRightTextP={"Boost your productivity and build morning"} 
+        floorRightTextP={"Boost your productivity and build morning"}
         floorRightTextH3={"CONTACT US"}
         floorRightImg1={floorRightImg1}
       />
-      <Discover 
+      <Discover
         discoverImg={discoverImg}
         discoverH2={"Discover the best coffee"}
-        discoverP={"We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and available in stores worldwide."}
+        discoverP={
+          "We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and available in stores worldwide."
+        }
         discoverBtn={"Learn More"}
       />
 
@@ -82,10 +84,12 @@ const App = () => {
       <Explore />
       <Blog />
 
-      <Feedback 
+      <Feedback
         feedbackTextH2={"Our coffee perfection feedback"}
         feedbackTextP={"We don't just make your coffee, we make your day!"}
-        feedbackBoxP1={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset....."}
+        feedbackBoxP1={
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset....."
+        }
         feedbackBoxH3={"Jonny Thomas"}
         feedbackBoxP2={"Project Manager"}
       />
